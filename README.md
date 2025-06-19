@@ -69,17 +69,33 @@ An exploratory data analysis (EDA) project on the **FoodHub** dataset to uncover
 
 ## 🧪 Sample Visualizations
 
-1. Food Preparation Time: 📷 ![Food Prep Time](images/food_prep_time.PNG)
+### 📦 Food Preparation Time
+![Food Prep Time](images/food_prep_time.PNG)
 
-2. Delivery Time: 📷 ![Delivery Time](images/delivery_time.PNG)
+---
 
-3. Cost Distribution – Weekend vs Weekday: 📷 ![Cost of Order - Weekend vs Weekday](images/cost_of_order.PNG)
+### 🚚 Delivery Time Distribution
+![Delivery Time](images/delivery_time.PNG)
 
-4. Cuisine Type vs Cost of Order: 📷 ![Cost by Cuisine](images/cost_order_&_cuisine_type.PNG)
+---
 
-5. Food Prep Time vs Cuisine: 📷 ![Prep Time by Cuisine](images/food_prep_time_&_cuisine_type.PNG)
+### 💰 Cost Distribution – Weekend vs Weekday
+![Cost of Order - Weekend vs Weekday](images/cost_of_order.PNG)
 
-6. Top 10 Restaurants: 📷 ![Top Restaurants](images/top_10_rest.PNG)
+---
+
+### 🍽️ Cuisine Type vs Cost of Order
+![Cost by Cuisine](images/cost_order_&_cuisine_type.PNG)
+
+---
+
+### 🍱 Food Preparation Time by Cuisine
+![Prep Time by Cuisine](images/food_prep_time_&_cuisine_type.PNG)
+
+---
+
+### 🏆 Top 10 Restaurants by Orders
+![Top Restaurants](images/top_10_rest.PNG)
 
 ---
 
