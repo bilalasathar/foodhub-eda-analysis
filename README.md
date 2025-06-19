@@ -45,7 +45,7 @@ An exploratory data analysis (EDA) project on the **FoodHub** dataset to uncover
   - FoodHub Revenue ($6,166.30): This is the net earnings from orders after taking their commission (revenue calculated as per question 14).
   - FoodHub earns roughly 19.7% of the total order value as revenue.
 
-- **Popular Cuisines and Restaurants:**
+**Popular Cuisines and Restaurants:**
 
 - **Top 3 Cuisines: Based on order frequency, the top 3 cuisines are:**
   - American
@@ -65,7 +65,6 @@ An exploratory data analysis (EDA) project on the **FoodHub** dataset to uncover
   - Approximately 547 orders were placed on weekdays, and 1351 orders were placed on weekends.
 
 
-
 ---
 
 ## 🧪 Sample Visualizations
@@ -73,19 +72,19 @@ An exploratory data analysis (EDA) project on the **FoodHub** dataset to uncover
 1. Food Preparation Time
 📷 ![Food Prep Time](images/food_prep_time.PNG)
 
-3. Delivery Time
+2. Delivery Time
 📷 ![Delivery Time](images/delivery_time.PNG)
 
-4. Cost Distribution – Weekend vs Weekday
+3. Cost Distribution – Weekend vs Weekday
 📷 ![Cost of Order - Weekend vs Weekday](images/cost_of_order.PNG)
 
-5. Cuisine Type vs Cost of Order
+4. Cuisine Type vs Cost of Order
 📷 ![Cost by Cuisine](images/cost_order_&_cuisine_type.PNG)
 
-6. Food Prep Time vs Cuisine
+5. Food Prep Time vs Cuisine
 📷 ![Prep Time by Cuisine](images/food_prep_time_&_cuisine_type.PNG)
 
-7. Top 10 Restaurants
+6. Top 10 Restaurants
 📷 ![Top Restaurants](images/top_10_rest.PNG)
 
 ---
