@@ -27,33 +27,66 @@ An exploratory data analysis (EDA) project on the **FoodHub** dataset to uncover
 
 ## 📈 Key Insights
 
-- Higher ratings are generally associated with shorter delivery times.
-- Certain cuisines consistently receive higher average ratings.
-- Delivery times vary significantly by city and cuisine type.
-- Few cities account for a majority of total orders.
+- **Food Preparation and Delivery Times:**
+  - On average, food takes about 27 minutes to prepare and 24 minutes to deliver.
+  - Delivery takes longer on weekdays compared to weekends, likely because there are fewer delivery people or more traffic.
 
----
+- **Cost of Orders and Customer Behavior:**
+  - About 29% of the orders cost more than 20$.
+  - And 70.76% of order costs less then 20$, indicating majority of the customers are interested in buying low cost food.
+  - On weekends, American cuisine is the most popular, suggesting customers choose comfort food.
 
-## 📂 Project Structure
+- **Customer Ratings and Order Costs:**
+  - There is no strong link between the cost of an order and its rating, meaning price does not mainly drive customer satisfaction.
+  - Majority of the restaurants consistently receive higher ratings and no restaurant has got rating below 3 which implies strong positive customer feedback.
 
-```
-foodhub-eda-analysis/
-│
-├── FoodHub_EDA.ipynb                # Main Jupyter notebook
-├── FoodHub_EDA.html                 # HTML version for preview
-├── dataset/                         # Raw data (if shared)
-│   └── foodhub_orders.csv
-├── images/                          # Plots & screenshots (optional)
-│   └── rating_vs_delivery.png
-├── README.md                        # Project documentation
-└── LICENSE                          # MIT License
-```
+- **Revenue Generation:**
+  - Total Order Value ($31,314.82): This is the gross amount of all orders.
+  - FoodHub Revenue ($6,166.30): This is the net earnings from orders after taking their commission (revenue calculated as per question 14).
+  - FoodHub earns roughly 19.7% of the total order value as revenue.
+
+- **Popular Cuisines and Restaurants:**
+
+- **Top 3 Cuisines: Based on order frequency, the top 3 cuisines are:**
+  - American
+  - Japanese
+  - Italian
+
+- **Top 3 Restaurants: The analysis identified the top 3 restaurants:**
+  - Shake Shack
+  - The Meatball Shop
+  - Blue Ribbon Shushi
+
+- **Weekend Popularity:**
+  - American cuisine is especially popular on weekends, suggesting a strong customer preference for that cuisine.
+
+- **Weekend vs. Weekday Orders:**
+  - Total Orders: The dataset contains 1,898 orders.
+  - Approximately 547 orders were placed on weekdays, and 1351 orders were placed on weekends.
+
+
 
 ---
 
 ## 🧪 Sample Visualizations
 
-> *(Add screenshots like histograms, bar plots of cuisine ratings, delivery time comparisons, etc., inside the `images/` folder)*
+1. Food Preparation Time
+📷 ![Food Prep Time](images/food_prep_time.PNG)
+
+3. Delivery Time
+📷 ![Delivery Time](images/delivery_time.PNG)
+
+4. Cost Distribution – Weekend vs Weekday
+📷 ![Cost of Order - Weekend vs Weekday](images/cost_of_order.PNG)
+
+5. Cuisine Type vs Cost of Order
+📷 ![Cost by Cuisine](images/cost_order_&_cuisine_type.PNG)
+
+6. Food Prep Time vs Cuisine
+📷 ![Prep Time by Cuisine](images/food_prep_time_&_cuisine_type.PNG)
+
+7. Top 10 Restaurants
+📷 ![Top Restaurants](images/top_10_rest.PNG)
 
 ---
 
