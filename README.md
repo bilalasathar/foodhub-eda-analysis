@@ -1,4 +1,4 @@
-🍽️ FoodHub EDA Analysis
+### 🍽️ FoodHub EDA Analysis
 An exploratory data analysis (EDA) project on the FoodHub dataset to uncover meaningful insights about customer behavior, order patterns, delivery times, and cuisine preferences. This project helps a food aggregator platform enhance customer experience through data-backed decisions.
 
 📌 Objectives
